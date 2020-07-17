@@ -12,7 +12,7 @@ class WatchPage extends React.Component {
 			<Link to="/">Home</Link>
 			<Player
 				playsInline
-				src={"http://localhost:8080/vid?v="+this.props.match.params.key}
+				src={"http://192.168.1.9:8080/vid?v="+this.props.match.params.key}
 			/>
 			</>
 		)

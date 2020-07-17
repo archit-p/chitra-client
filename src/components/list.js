@@ -9,7 +9,7 @@ class ListPage extends React.Component {
 	}
 
 	componentDidMount() {
-		fetch("http://localhost:8080/")
+		fetch("http://192.168.1.9:8080/")
 		.then(res => res.json())
 		.then((data) => {
 			this.setState({ movies: data })
